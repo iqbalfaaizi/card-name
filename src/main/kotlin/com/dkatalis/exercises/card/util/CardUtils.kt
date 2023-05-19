@@ -1,4 +1,4 @@
-package com.dkatalis.exercises.util
+package com.dkatalis.exercises.card.util
 
 import org.springframework.context.annotation.Configuration
 

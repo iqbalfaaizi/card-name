@@ -159,7 +159,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-mongodb:3.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-sync:4.8.2" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:bson:4.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:4.8.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:bson-record-codec:4.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:4.0.5" level="project" />
@@ -179,5 +178,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:6.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:6.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:bson:4.8.2" level="project" />
   </component>
 </module>

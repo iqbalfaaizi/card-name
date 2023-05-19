@@ -1,11 +1,11 @@
-package com.dkatalis.exercises.domain
+package com.dkatalis.exercises.card.dto
 
+import com.fasterxml.jackson.annotation.JsonProperty
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
-import java.math.BigDecimal
 
 @Document("cards")
-data class Card(
+data class CardDto(
     @Id
     val id: String,
     val cardId: String,
@@ -34,7 +34,13 @@ data class GeneratedCardName(
     @Id
     val id: String,
     val cardId: String,
-    val cardName: String,
     val customerId: String,
-    var generatedCustomerName: String
+    val cardName: String,
+    val fullName: String,
+    val defaultEmbossName: String,
+    var generatedEmbossName: String
+)
+
+data class GenerateCardNameDto(
+    @JsonProperty("name") val name: String
 )
